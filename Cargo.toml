@@ -1,0 +1,24 @@
+[package]
+name = "macro-builder"
+version = "0.1.0"
+edition = "2021"
+description = "An implementation of Builder Pattern using macro_rules and failing at compilation."
+authors = [
+    "Yannick Guern <dev@guern.eu>"
+]
+license = "BSD-3-Clause"
+license-file = "LICENCE.txt"
+readme = "README.md"
+keywords = [
+    "builder",
+    "macro",
+    "struct",
+    "setter",
+    "fail at compilation"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tt-call = "1.0.8"
+tt-equal = "0.1.2"
